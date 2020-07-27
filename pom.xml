@@ -64,6 +64,7 @@
 				<version>${compiler.version}</version>
 				<configuration>
 					<!--<release>11</release> -->  <!--or <release>10</release> -->
+					<fork>true</fork>
 					<executable>/etc/alternatives/jre_1.8.0_openjdk/bin/javac</executable>
 				</configuration>
 			</plugin>
